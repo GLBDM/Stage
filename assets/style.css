@@ -1,0 +1,21 @@
+:root {
+  --color: lime;
+  --color2: rgba(221, 153, 221, 0.6);
+}
+
+.style {
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.gradientPrim {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(212deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+}
+
+.gradientSecond {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+}/*# sourceMappingURL=style.css.map */
